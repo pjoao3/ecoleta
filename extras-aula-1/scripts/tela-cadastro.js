@@ -18,7 +18,7 @@ populateUFs()
 function getCities(event){
     const citySelect = document.querySelector("select[name=uf]")
 
-    console.log(event.target.)
+    console.log(event.target)
 }
 
 document

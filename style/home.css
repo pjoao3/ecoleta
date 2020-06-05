@@ -61,18 +61,17 @@
     margin-top: 40px;
     background-color: var( --primary-color);
     transition: 400ms;
-    font-weight: bold;
-    color: white;
+   
 }
-#page-home main a:houver {
+#page-home main a:hover {
     background-color: #2fb86e;
     
 }
 
 #page-home main a span{
     width: 72px;
-    right: 72px;
-    background-color: rbga(0, 0, 0, 0, 0.08);
+    height: 72px;
+    background-color:  #2fb86e;
 
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -96,3 +95,4 @@
     color: white;
     text-align: center;
 }
+
