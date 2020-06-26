@@ -1,6 +1,6 @@
 #page-home{
     height: 110vh;
-    background: url('/public/icones/home-background.svg') no-repeat;
+    background: url('/icones/home-background.svg') no-repeat;
     background-position: 35vw bottom;
 
   }
@@ -28,7 +28,7 @@
   #page-home header a span{
       display: flex;
       margin-right: 16px;
-      background-image: url('/public/icones/log-in.svg');
+      background-image: url('/icones/log-in.svg');
       width: 20px;
       height: 20px;
   }
@@ -84,7 +84,7 @@
 
 #page-home main a span::after {
     content: "";
-    background-image: url('/public/icones/search.svg');
+    background-image: url('/icones/search.svg');
 
     width: 20px;
     height: 20px;

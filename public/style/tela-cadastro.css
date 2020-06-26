@@ -17,7 +17,7 @@
 }
 #page-tela-cadastro header a span{
     margin-right: 16px;
-    background-image: url('/public/icones/arrow-left.svg');
+    background-image: url('/icones/arrow-left.svg');
     display: flex;
     width: 20px;
     height: 24px;
@@ -85,6 +85,7 @@ form button{
     border-radius: 8px; 
     margin-top: 40px;
     transition: background-color 400ms;
+    cursor: pointer;
 }
 
 form button:hover{

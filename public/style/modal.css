@@ -29,7 +29,7 @@
 }
 
 #modal .header a{
-    background-image: url(/public/icones/x.svg);
+    background-image: url(/icones/x.svg);
     width: 20px;
     height: 20px;
     display: flex;
