@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/pjoao3/Ecoleta#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
   },
   "devDependencies": {
     "nodemon": "^1.10.2"

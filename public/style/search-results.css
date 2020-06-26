@@ -6,8 +6,8 @@ body::after{
     right: 0;
     left: 0;
     bottom: 0;
-    z-index: -1;
-}
+    z-index: -1; 
+} 
 
 
 #page-search-results{
@@ -48,7 +48,7 @@ main h4{
 
 main .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
     gap: 24px;
 }
 

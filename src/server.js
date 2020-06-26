@@ -5,14 +5,27 @@ const server = express()
 server.use(express.static("public"))
 
 
+//template engine
+const nunjucks = require("nunjucks")
+nunjucks.configure("src/views", {
+    express: server,
+    noCache: true
+})
+
+
 
 //Página Inicial
 server.get("/", (req, res) => {
-    res.sendFile(__dirname + "/views/index.html")
+   return res.render("index.html")
 })
+
 server.get("/tela-cadastro", (req, res) => {
-    res.sendFile(__dirname + "/views/tela-cadastro.html")
+   return res.render("tela-cadastro.html")
 })
+
+server.get("/search", (req, res) => {
+    return res.render("search-results.html")
+ })
 
 
 //Ligar servidor
